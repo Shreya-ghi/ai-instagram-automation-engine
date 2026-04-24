@@ -1,4 +1,4 @@
-# 🤖 AI Instagram Automation Engine
+ 🤖 AI Instagram Automation Engine
 
 [![n8n](https://img.shields.io/badge/Automation-n8n-FF6C37?style=flat&logo=n8n)](https://n8n.io/)
 [![Groq](https://img.shields.io/badge/AI-Groq-orange?style=flat)](https://groq.com/)
@@ -8,7 +8,7 @@ An intelligent automation pipeline that generates AI-powered captions using **Gr
 
 ---
 
-## 🚀 Overview
+🚀 Overview
 
 This project automates the entire content creation workflow:
 1. **Trigger:** Picks up a new image/topic from a **Google Sheet**.
@@ -17,7 +17,7 @@ This project automates the entire content creation workflow:
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 * **Workflow Engine:** [n8n](https://n8n.io/)
 * **AI Model:** Groq (LLaMA 3)
@@ -26,7 +26,7 @@ This project automates the entire content creation workflow:
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 * `workflow/` - Contains the `.json` export of the n8n workflow.
 * `assets/` - Screenshots and architectural diagrams.
@@ -34,14 +34,14 @@ This project automates the entire content creation workflow:
 
 ---
 
-## ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 
-### 1. Prerequisites
+ 1. Prerequisites
 * An [n8n](https://n8n.io/) instance (Desktop or Cloud).
 * A [Groq API Key](https://console.groq.com/).
 * A Facebook Developer account with **Instagram Graph API** access.
 
-### 2. Configuration
+ 2. Configuration
 Replace the following placeholders in the n8n workflow:
 * `YOUR_GOOGLE_SHEET_ID`
 * `YOUR_INSTAGRAM_BUSINESS_ACCOUNT_ID`
